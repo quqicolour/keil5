@@ -1,6 +1,8 @@
 #include <REGX52.H>
 #include <INTRINS.H>
+// This file is for running water lamps
 
+// Set the timing delay to 1000ms
 void Delay1000us()		//@12.000MHz
 	{
 		unsigned char i, j;
@@ -13,6 +15,7 @@ void Delay1000us()		//@12.000MHz
 		} while (--i);
 	}
 	
+// Write the main program and call the delay
 void main(){
  
 	while(1){
