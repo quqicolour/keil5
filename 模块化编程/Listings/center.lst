@@ -1,0 +1,41 @@
+C51 COMPILER V9.60.0.0   CENTER                                                            03/05/2022 21:44:54 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE CENTER
+OBJECT MODULE PLACED IN .\Objects\center.obj
+COMPILER INVOKED BY: F:\keil5\save\C51\BIN\C51.EXE center.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings
+                    -\center.lst) TABS(2) OBJECT(.\Objects\center.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          //<>从安装目录寻找文件
+   3          //""从自己的程序目录寻找文件
+   4          #include "Delay.h"
+   5          #include "LapNum.h"
+   6          void main(){
+   7   1      while(1){
+   8   2        LapNum(1,1);
+   9   2        LapNum(2,2);
+  10   2        LapNum(3,3);
+  11   2        LapNum(4,4);
+  12   2        LapNum(5,5);
+  13   2        LapNum(6,6);
+  14   2        LapNum(7,7);
+  15   2        LapNum(8,8);
+  16   2      }
+  17   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     74    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

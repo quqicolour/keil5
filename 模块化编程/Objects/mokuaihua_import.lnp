@@ -1,0 +1,6 @@
+".\Objects\STARTUP.obj",
+".\Objects\center.obj",
+".\Objects\Delay.obj",
+".\Objects\LapNum.obj" 
+TO ".\Objects\mokuaihua_import" 
+PRINT(".\Listings\mokuaihua_import.m51") RAMSIZE(256) 

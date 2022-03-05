@@ -1,0 +1,40 @@
+C51 COMPILER V9.60.0.0   LCDTEST                                                           03/05/2022 22:11:45 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LCDTEST
+OBJECT MODULE PLACED IN .\Objects\lcdtest.obj
+COMPILER INVOKED BY: F:\keil5\save\C51\BIN\C51.EXE lcdtest.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listing
+                    -s\lcdtest.lst) TABS(2) OBJECT(.\Objects\lcdtest.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          #include "LCD1602.h"
+   3          void main(){
+   4   1      
+   5   1        LCD_Init();
+   6   1        LCD_ShowChar(1,2,'A');
+   7   1        LCD_ShowString(1,3,"hello world!");
+   8   1        LCD_ShowNum(1,2,125,5);
+   9   1        LCD_ShowSignedNum(1,4,-15);
+*** WARNING C209 IN LINE 9 OF lcdtest.c: '_LCD_ShowSignedNum': too few actual parameters
+  10   1        LCD_ShowHexNum(1,5,0xA8,5);
+  11   1        LCD_ShowBinNum(2,6,0XAA,8);
+  12   1        while(1){
+  13   2          
+  14   2                }
+  15   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     80    ----
+   CONSTANT SIZE    =     13    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
